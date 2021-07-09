@@ -17,6 +17,15 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return Firstpage();
+    return MaterialApp(
+      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        scaffoldBackgroundColor: (Colors.teal.shade200),
+        primarySwatch: Colors.blue,
+      ),
+      home: Firstpage(),
+    );
+    //return Firstpage();
   }
 }

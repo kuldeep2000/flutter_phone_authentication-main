@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:phone_auth_project/otp.dart';
 import 'package:phone_auth_project/register.dart';
 
+import 'home.dart';
+
 class LoginScreen extends StatefulWidget {
   @override
   _LoginScreenState createState() => _LoginScreenState();
@@ -126,6 +128,11 @@ class _LoginScreenState extends State<LoginScreen> {
                 onPressed: () {
                   Navigator.of(context).push(MaterialPageRoute(
                       builder: (context) => OTPScreen(_controller.text)));
+
+                  /*Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Home()),
+                  );*/
                 },
                 child: Text(
                   'Next',

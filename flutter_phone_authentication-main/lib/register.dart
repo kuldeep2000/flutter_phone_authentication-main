@@ -33,7 +33,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
       /*appBar: AppBar(
         title: Text('RegisterPage'),
       ),*/
-      /*body: Container(
+      body: Container(
         margin: EdgeInsets.symmetric(vertical: 20.0),
         height: 1000.0,
         child: ListView(
@@ -134,9 +134,9 @@ class _RegisterScreenState extends State<RegisterScreen> {
             ),
           ],
         ),
-      ),*/
+      ),
 
-      body: Center(
+      /*body: Center(
         child: Stack(
           children: <Widget>[
             Container(
@@ -195,8 +195,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       ),
                     )
                   ],
-                )),
-            /*Container(
+                )),*/
+      /*Container(
                   alignment: Alignment(0.0, -0.5),
                   child: Text(
                     'The Alchemist',
@@ -232,9 +232,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           fontSize: 40.0),
                     )),
               ),*/
-          ],
-        ),
-      ),
     );
   }
 }
